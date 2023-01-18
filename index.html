@@ -3,22 +3,72 @@
     <head>
         <meta charset = "UTF-8">
         <title>Homepage</title>
+        <link href="style.css" rel = stylesheet>
     </head>
     <body>
-        <h1>Best hearty fall soups that will warm your body and soul</h1>
-        <h3>Odin Recipes</h3>
-        <img src = "https://31c68e.n3cdn1.secureserver.net/wp-content/uploads/2019/10/mustard-soup-1-18-768x1152.jpg"
-             alt = "Autumn picture with soup"
-             width="600"
-             height="920">
-
-        <p>What’s better than a warm and comforting bowl of soup during the crisp and cool days of autumn? Whip up a last-minute salad and toast some bread, and voilà. Dinner is ready! 
+        <div class = "headBg">
+            <h1>Best hearty fall soups that will warm your body and soul</h1>
+            <h3>Odin Recipes</h3>
+        </div>
+            
+        <p>
+            What’s better than a warm and comforting bowl of soup during the crisp and cool days of autumn? Whip up a last-minute salad and toast some bread, and voilà. Dinner is ready! 
         </p>
         <p>I’ve put together a list of some of my favorites so go and check it up!</p>
-        <ul>
-            <li><a href="recipes/soups/borscht.html">Borscht</a></li>
-            <li><a href="recipes/soups/mushroom_soup.html">Mashroom soup</a></li>
-            <li><a href="recipes/soups/pumpkin_soup.html">Pumpkin soup</a></li>
-        </ul>
+        <div class = "flex-container">
+            <a href = "recipes/soups/borscht.html">
+               <div class = "soupBlock">
+                    <div class = "childBlock">
+                        <img src = "img/homepage/soups_list/borscht.jpg"
+                        alt="Borscht-square"
+                        width="250"
+                        height="250"
+                        >
+                    </div>
+                    <div class = "textBlock">
+                        <b><p>Borscht</p></b>
+                        <p>
+                            Borsch is one of the most well-known Slavic foods. 
+                            It is a beet soup made with many other vegetables. This
+                             version is made with beef, potatoes, cabbage, lots of aromatic 
+                             vegetables and is served with fresh herbs and sour cream.
+                        </p>
+                    </div>     
+                </div>
+            </a>
+            <a href = "recipes/soups/mushroom_soup.html">
+                <div class = "soupBlock">
+                    <div>
+                        <img src = "img/homepage/soups_list/mashroom_soup.jpg"
+                        alt="Mashroom soup-square"
+                        width="250"
+                        height="250">
+                    </div>
+                    <div class = "textBlock">
+                        <b><p>Mashroom soup</p></b>
+                        <p>
+                            A warm bowl of soup so deliciously creamy with tender bites of mushroom pieces. Full flavoured with garlic, onions and herbs subtle enough
+                             to shine through and compliment the natural flavour of mushrooms without overpowering it. Cooked with easy to find 
+                            ingredients you may already have in your kitchen, you are minutes away from a satisfying bowl of creamy goodness!
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="recipes/soups/pumpkin_soup.html">
+                <div class = "soupBlock">
+                    <div>
+                        <img src ="img/homepage/soups_list/pumpkin_soup.jpg"
+                         alt="Pumpkin soup-square"
+                         width="250"
+                         height="250">
+                    </div>
+                    <div class = "textBlock">
+                        <b><p>Pumpkin soup</p></b>
+                        <p>
+                            Thick & Creamy Pumpkin Soup makes the weekly rounds at our house and is always served with a swirl of cream, crispy bacon pieces AND sometimes buttery and cheesy garlic bread.                         </p>
+                    </div>
+                </div>
+            </a>
+        </ul>        
     </body>
 </html>
